@@ -1,4 +1,6 @@
 ### cypress-playwright
+![](assets/demo.gif)
+
 
 
 ### How to use
