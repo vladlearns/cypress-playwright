@@ -8,7 +8,7 @@ cy.task('playwright', 'googleMe')
 ```
 
 ### How this was done
-In the example file, the [Playwright test](./playwright/googleMe.js) is invoked from the [cypress test](./cypress/integration/safari/googleMe.spec.js). This was done using [Cypress task plugin event](https://docs.cypress.io/api/commands/task#Syntax):
+In the example file, the [Playwright test](./playwright/googleMe.js) is invoked from the [Cypress test](./cypress/integration/safari/googleMe.spec.js). This was done using [Cypress task plugin event](https://docs.cypress.io/api/commands/task#Syntax):
 
 
 ```js
