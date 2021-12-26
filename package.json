@@ -1,0 +1,20 @@
+{
+  "name": "cypress-playwright",
+  "version": "1.0.0",
+  "description": "Setup with playwright execution from cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.2.0"
+  },
+  "devDependencies": {
+    "@cypress/skip-test": "^2.6.1",
+    "@playwright/test": "^1.17.1",
+    "playwright": "^1.17.1"
+  },
+  "scripts": {
+    "test": "npm run cypress",
+    "cy:open": "cypress open"
+  },
+  "author": "vladlearns",
+  "license": "MIT"
+}
